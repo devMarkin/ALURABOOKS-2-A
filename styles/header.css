@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
@@ -18,6 +19,7 @@
     display: flex;
     align-items: center;
 }
+
 .container__imagem {
     padding: 1em;
 }
@@ -25,7 +27,7 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top:100%;
+    top: 100%;
     width: 60vw;
 }
 
@@ -33,22 +35,25 @@
     display: block;
 }
 
-.lista-menu_titulo, 
-.lista-menu_item {
+.lista-menu__titulo,
+.lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
 }
 
-.lista-menu_titulo{
+.lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
-.lista-menu_link {
+
+.lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
 }
+
 .container__botao {
-    display: none
+    display: none;
 }
